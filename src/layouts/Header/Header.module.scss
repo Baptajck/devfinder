@@ -1,0 +1,19 @@
+@import '../../styles/index.scss';
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+	.title {
+		flex: 1;
+		color: var(--text-color-title);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.header {
+		width: 100%;
+	}
+}

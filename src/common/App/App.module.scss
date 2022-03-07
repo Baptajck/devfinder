@@ -1,0 +1,21 @@
+.app {
+	padding: 0 1.5em;
+}
+
+@media screen and (min-width: 768px) {
+	.app {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+		width: 500px;
+		height: 100vh;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.app {
+		width: 750px;
+	}
+}
