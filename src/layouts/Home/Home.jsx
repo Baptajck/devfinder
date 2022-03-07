@@ -39,7 +39,7 @@ const Home = () => {
 		try {
 			const data = await fetch(`https://api.github.com/users/${search}`, {
 				headers: {
-					Authorization: 'bearer ' + import.meta.env.VITE_GITHUB_TOKEN,
+					Accept: 'application/vnd.github.v3+json',
 				},
 			});
 			console.log(data);
